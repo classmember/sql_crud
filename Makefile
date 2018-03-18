@@ -3,7 +3,7 @@ CC=g++
 all: entity
 
 entity:
-	$(CC) -o entity src/*.cpp -l sqlite3
+	$(CC) -O2 -o entity src/*.cpp -l sqlite3
 	mkdir -p build
 	mv entity build/entity
 
