@@ -7,5 +7,8 @@ entity:
 	mkdir -p build
 	mv entity build/entity
 
+test:
+	./build/entity
+
 clean:
 	rm *.o

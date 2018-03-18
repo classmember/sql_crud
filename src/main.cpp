@@ -31,7 +31,7 @@ void init_db(sqlite3* db) {
         ;  // success
     } else {
         cerr <<"db init error" <<endl
-             <<error          <<endl;
+             <<error           <<endl;
     }
 }
 

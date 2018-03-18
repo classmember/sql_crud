@@ -1,0 +1,6 @@
+language: cpp
+compiler: g++
+
+before_install: sudo apt-get install libsqlite3-dev
+install: make
+script: make test
