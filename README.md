@@ -1,5 +1,7 @@
 # sql_crud
 
+![build status](https://api.travis-ci.org/classmember/sql_crud.svg?branch=master)
+
 CRUD (Create, Read, Update, Delete) Operations using the sqlite3 database library in the C++ programming language.
 
 ## entity crud operations
