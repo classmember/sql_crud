@@ -13,13 +13,18 @@ CRUD (Create, Read, Update, Delete) Operations using the sqlite3 database librar
          entity delete  [id]         
 ```
 
+## build requirements
+git
+g++
+libsqlite3-dev
+
 ## build
 
 ##### git clone the repo and run make
 
 ```sh
 git clone https://github.com/classmember/cpp_sqlite_crud.git
-cd cpp_sqlite_crud
+cd sql_crud
 make
 ./build/entity
 ```
