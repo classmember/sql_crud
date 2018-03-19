@@ -31,7 +31,7 @@ void init_db(sqlite3 * db)
 {
     char **error = NULL;
     if (sqlite3_exec(db, SCHEMA, NULL, NULL, error) == SQLITE_OK) {
-	;			// success
+	; // success
     } else {
 	cerr << "db init error" << endl << error << endl;
     }
