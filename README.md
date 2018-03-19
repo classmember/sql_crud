@@ -14,9 +14,9 @@ CRUD (Create, Read, Update, Delete) Operations using the sqlite3 database librar
 ```
 
 ## build requirements
-git
-g++
-libsqlite3-dev
+* git
+* g++
+* libsqlite3-dev
 
 ## build
 
