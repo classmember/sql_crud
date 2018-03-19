@@ -23,7 +23,7 @@ CRUD (Create, Read, Update, Delete) Operations using the sqlite3 database librar
 ##### git clone the repo and run make
 
 ```sh
-git clone https://github.com/classmember/cpp_sqlite_crud.git
+git clone https://github.com/classmember/sql_crud.git
 cd sql_crud
 make
 ./build/entity
