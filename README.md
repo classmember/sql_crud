@@ -18,6 +18,16 @@ CRUD (Create, Read, Update, Delete) Operations using the sqlite3 database librar
 * g++
 * libsqlite3-dev
 
+### Debian based (Ubuntu, Mint, et.al)
+```sh
+sudo apt install git g++ libsqlite3-dev
+```
+
+### RedHat based (Fedora, CentOS, et.al)
+```sh
+sudo yum install -y git gcc-c++ libsqlite3-devel
+```
+
 ## build
 
 ##### git clone the repo and run make
