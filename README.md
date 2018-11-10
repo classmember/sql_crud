@@ -79,8 +79,8 @@ update
 ##### removes a database entry
 
 ```
-$ entity destroy 1
-destroy
+$ entity delete 1
+delete
     id  1
   name
 ```
